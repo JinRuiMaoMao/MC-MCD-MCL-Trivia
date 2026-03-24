@@ -214,7 +214,7 @@ class QuizGame:
         tk.Button(self.diff_frame, text="Medium (Mix MC/MCD/MCL)", font=("Arial", 16),
                   bg="blue", fg="white", command=lambda: self.start_quiz(15, "Medium")).pack(pady=15)
         tk.Button(self.diff_frame, text="Hard (All questions)", font=("Arial", 16),
-                  bg="red", fg="white", command=lambda: self.start_quiz(20, "Hard")).pack(pady=15)
+                  bg="red", fg="white",command=lambda: self.start_quiz(20, "Hard")).pack(pady=15)
 
         def open_link(url):
             webbrowser.open_new(url)
