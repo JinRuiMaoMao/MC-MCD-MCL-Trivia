@@ -3,8 +3,6 @@ from tkinter import messagebox
 import random
 import webbrowser
 
-
-
 # -----------------------------
 # Predefined Questions
 # -----------------------------
